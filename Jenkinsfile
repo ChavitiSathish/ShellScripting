@@ -7,13 +7,11 @@ pipeline {
                 sh 'echo Hello'
             }
         }
-    }
 
-    stages {
-            stage('Two') {
-                steps {
-                    sh 'echo Hello'
-                }
-            }
-        }
+         stage('Two') {
+             steps {
+                sh 'echo Hello'
+             }
+         }
+    }
 }
