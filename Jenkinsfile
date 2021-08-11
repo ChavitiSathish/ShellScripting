@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('One') {
             steps {
-                sh 'echo Hello'
+                sh 'cd roboshop-shell-scripting ; terraform init'
             }
         }
 
          stage('Two') {
              steps {
-                sh 'echo Hello'
+                sh 'terraform apply -auto-approve'
              }
          }
     }
