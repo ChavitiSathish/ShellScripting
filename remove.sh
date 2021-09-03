@@ -4,5 +4,10 @@ yum remove nodejs -y
 
 #above will remove current nodejs package
 
+netstat -lntp
+#To find out the ip port
 
-Session 43 & 44 : SonarQube(For Checking Bugs)
+cat
+#to read the file
+
+Session 43 & 44 : SonarQube ( For Checking Bugs)
